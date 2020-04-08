@@ -1,0 +1,11 @@
+RESUMO - PIBIC
+
+RESULTS AND DISCUSSION:
+The computational task defined was to correctly classify images of hand-written digits contained in the MNIST dataset [2], which contains 60000 training examples and 10000 training examples. Therefore, an MLP Deep Neural Network with 5 hidden layers and a softmax output layer was designed. The activation function used was the ReLU along with a Softmax output layer.
+
+The testing phase consisted of varying the Network's parameters, training and, finally, verifying the model's accuracy. The parameters that had more impact in the model were the learning rate (where a momentum was applied to optimize the parameter value) and the number of neurons in each hidden layer. With the aid of the open-source machine learning framework PyTorch, the models were implemented in a Python environment, and trained on an Nvidia GeForce 940MX GPU.
+
+At the end of the testing phase, a reasonable parameter choice decided was 500 neurons for each hidden layer and a learning rate of 0.01 with 0.8 momentum. These values were decided targeting computational efficiency and model accuracy. The resulting model reached an accuracy of approximately 99.
+
+CONCLUSION:
+This research contributed to the 
